@@ -1,0 +1,88 @@
+org: ekebibiana
+app: jobtracker
+service: trackit
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: dev
+functions:
+  sendToSubscribers:
+      handler: handler.sendToSubscribers
+      timeout: 900
+  getwebflowjobs:
+    handler: handler.getwebflowjobs
+  getairbnbjobs:
+    handler: handler.getairbnbjobs
+  getheapjobs:
+    handler: handler.getheapjobs
+  getbravejobs:
+    handler: handler.getbravejobs
+  getnetlifyjobs:
+    handler: handler.getnetlifyjobs
+  getgithubjobs:
+    handler: handler.getgithubjobs
+  getmodeanalyticsjobs:
+    handler: handler.getmodeanalyticsjobs
+  getgitlabjobs:
+    handler: handler.getgitlabjobs
+  getauth0jobs:
+    handler: handler.getauth0jobs
+  getmattermostjobs:
+    handler: handler.getmattermostjobs
+  getinvisionjobs:
+    handler: handler.getinvisionjobs
+  getloomjobs:
+    handler: handler.getloomjobs
+  getcbinsightsjobs:
+    handler: handler.getcbinsightsjobs
+  gethandshakejobs:
+    handler: handler.gethandshakejobs
+  getfastlyjobs:
+    handler: handler.getfastlyjobs
+  getarticulatejobs:
+    handler: handler.getarticulatejobs
+  getbufferjobs:
+    handler: handler.getbufferjobs
+  getcypressjobs:
+    handler: handler.getcypressjobs
+  getairbasejobs:
+    handler: handler.getairbasejobs
+  getautomatticjobs:
+    handler: handler.getautomatticjobs
+  getzapierjobs:
+    handler: handler.getzapierjobs
+  getpodiajobs:
+    handler: handler.getpodiajobs
+  gethotjarjobs:
+    handler: handler.gethotjarjobs
+  getduckduckgojobs:
+    handler: handler.getduckduckgojobs
+  getdoistjobs:
+    handler: handler.getdoistjobs
+  getworkosjobs:
+    handler: handler.getworkosjobs
+  getconvertkitjobs:
+    handler: handler.getconvertkitjobs
+  gettaxjarjobs:
+    handler: handler.gettaxjarjobs
+  getremindjobs:
+    handler: handler.getremindjobs
+  getthornjobs:
+    handler: handler.getthornjobs
+  getwildbitjobs:
+    handler: handler.getwildbitjobs
+  getwikimediajobs:
+    handler: handler.getwikimediajobs
+  gethashicorpjobs:
+    handler: handler.gethashicorpjobs
+  getmondayvcjobs:
+    handler: handler.getmondayvcjobs
+  gettwiliojobs:
+    handler: handler.gettwiliojobs
+  getaptiblejobs:
+    handler: handler.getaptiblejobs
+  getkhanacademyjobs:
+    handler: handler.getkhanacademyjobs
+  getstackoverflowjobs:
+    handler: handler.getstackoverflowjobs
